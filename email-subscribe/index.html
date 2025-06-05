@@ -7,5 +7,43 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Email Subscribe</title>
   </head>
-  <body></body>
+  <body>
+    <div class="flex h-screen bg-zinc-700 justify-center items-center">
+      <div class="p-2 rounded-2xl bg-zinc-800 mx-6">
+        <div class="flex flex-col rounded-l-xl md:flex-row">
+          <img
+            src="images/image.jpg"
+            class="object-fit md:h-64 h-80 rounded-xl md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-300"
+          />
+          <div class="p-6 md:p-12">
+            <h2
+              class="text-xl font-medium font-serif text-center text-white md:text-left"
+            >
+              Get diet and fitness tips in your inbox
+            </h2>
+            <p
+              class="max-w-xs my-4 text-xs leading-t tracking-wide text-center text-white md:text-left"
+            >
+              Subscribe to our newsletter and receive the latest updates on diet
+              and fitness tips directly in your inbox.
+            </p>
+            <div
+              class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0"
+            >
+              <input
+                type="text"
+                class="px-4 p-2 text-center text-white bg-zinc-800 border border-zinc-600 focus:outline-none placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left"
+                placeholder="Enter your Email"
+              />
+              <button
+                class="px-4 py-2 text-sm font-semibold text-zinc-800 bg-lime-500 rounded-lg hover:bg-lime-700 hover:text-white duration-300"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
